@@ -4,7 +4,7 @@
 <createdTime>2015-02-13 21:16:13 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-02-13 21:16:25 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,7 +31,7 @@
 <createdTime>2015-02-13 21:16:36 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,27 +44,13 @@
 <createdTime>2015-02-13 21:16:48 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-</Attribute>
-<Attribute name="person_id" id="9F3298D5-47D2-3EB9-C95B-E8055BB665E4">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-02-13 22:06:06 UTC</createdTime>
-<generatorID>559E5681-A146-6015-7B9D-73D9AF6BF166</generatorID>
-<ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>9E412B11-422E-4B1F-7841-16ADEC318728</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -73,7 +59,7 @@
 <createdTime>2015-02-13 21:16:35 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

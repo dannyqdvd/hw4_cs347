@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B5EB00B-BA55-E27F-77BD-B75AF554E833" name="SIM_project">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="025468E8-6DC3-3AA5-76E3-247CC9FB9C06" name="SIM_project_employment">
 <createdBy>dannyqdvd</createdBy>
-<createdTime>2015-02-13 21:15:06 UTC</createdTime>
+<createdTime>2015-02-13 22:39:32 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="project_id" id="9D38ABC4-F5EE-CC4F-B03D-88671298E9DF">
+<Attribute name="project_employment_id" id="5576D861-34C4-C339-A319-46F0F4DE51AC">
 <createdBy>dannyqdvd</createdBy>
-<createdTime>2015-02-13 21:15:22 UTC</createdTime>
+<createdTime>2015-02-13 22:40:12 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
@@ -26,9 +26,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="name" id="851C001B-EB4A-981C-C818-E4C356A4067E">
+<Attribute name="rating" id="53E00FD5-8E94-956C-35B1-31C55B528F39">
 <createdBy>dannyqdvd</createdBy>
-<createdTime>2015-02-13 21:15:45 UTC</createdTime>
+<createdTime>2015-02-13 22:40:55 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
@@ -39,32 +39,18 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="dept_id" id="5D83FD0B-C2E3-F7D9-0BE0-A72535551388">
-<createdBy>dannyqdvd</createdBy>
-<createdTime>2015-02-13 21:21:19 UTC</createdTime>
-<generatorID>1561B983-C58C-4E10-659F-20D29F110475</generatorID>
-<ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>9A98DB16-6089-8680-0D5E-4D3D68C634C0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C3D9E97C-DF33-2DFD-3F9B-EA60745ACB36" name="{entity} PK">
+<identifier id="D6D7475D-3D43-B5F6-5E4B-A1B562EB3428" name="{entity} PK">
 <createdBy>dannyqdvd</createdBy>
-<createdTime>2015-02-13 21:15:41 UTC</createdTime>
+<createdTime>2015-02-13 22:40:50 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9D38ABC4-F5EE-CC4F-B03D-88671298E9DF</attributeRef>
+<attributeRef>5576D861-34C4-C339-A319-46F0F4DE51AC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
