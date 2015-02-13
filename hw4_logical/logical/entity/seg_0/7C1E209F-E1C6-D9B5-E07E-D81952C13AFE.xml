@@ -1,0 +1,260 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C1E209F-E1C6-D9B5-E07E-D81952C13AFE" name="SIM_Person">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:03:43 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="9E412B11-422E-4B1F-7841-16ADEC318728">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:03:56 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="E8D276A6-4936-1D7A-2431-80DE99EEF2D8">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:04:10 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="7373A6E5-EBC8-A017-B179-B647735E34AD">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:04:24 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="B49A26F4-4637-2A23-38AB-0B7C216A9A93">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:04:36 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="96BA2D2F-FE5E-D546-4B15-A75A38034607">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:04:47 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="524FD40D-1D52-E598-086E-5F8592857101">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:04:59 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="B9E37D56-941F-9473-E8BF-7088B4680047">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:05:11 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="6A6BC3CA-BD83-59CD-9196-4AD07BB0B1E0">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:05:20 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="7F1D1848-D5B6-3857-7F5E-93009D657EFF">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:05:30 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="emp_id" id="099DA362-D7D2-B38A-958D-13D436DF7686">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:57:22 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="D9E749FF-59AB-CC63-2B1A-8D74C530FBCC">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:57:53 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="04680C20-4999-64D1-1F76-9DED2FC0A7DE">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:58:32 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="AD4A3C78-A440-BF31-5872-BB67334F26AB">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:58:39 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="47D7AC1E-5477-A618-35B9-51CCB7EF0027">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:59:44 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="B1957DC7-7496-9667-AEDF-C0AF88903C1D">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:59:55 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="308EB680-797E-8951-68E7-066757602214">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 22:00:02 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="C842911C-5981-1541-D512-7D7A3407D9C0">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 22:05:25 UTC</createdTime>
+<generatorID>01D8537B-98D6-57F4-1C4C-DFA440376D38</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A98DB16-6089-8680-0D5E-4D3D68C634C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="6C71B153-DD05-AEA2-6206-8C013A0F5DB6">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 22:06:09 UTC</createdTime>
+<generatorID>559E5681-A146-6015-7B9D-73D9AF6BF166</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A98DB16-6089-8680-0D5E-4D3D68C634C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE19D5A5-BE82-EBD0-8A49-4FB386BC358C" name="{entity} PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:04:07 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="B6C1B1B5-AB28-6A9B-47A7-E26EC561B129" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E412B11-422E-4B1F-7841-16ADEC318728</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

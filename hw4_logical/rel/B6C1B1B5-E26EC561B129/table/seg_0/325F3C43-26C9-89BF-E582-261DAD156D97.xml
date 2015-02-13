@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="325F3C43-26C9-89BF-E582-261DAD156D97" name="SIM_emp">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>45440396-72A7-9F23-A2D7-CD30B82C993E</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="7D92BD8E-6C19-A7BE-E838-8AAED9EA4E23">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>9E412B11-422E-4B1F-7841-16ADEC318728</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0942BE07-562E-F73F-8312-2AFD14E9C0D6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9378012F-DC0E-D369-6A51-8DBD8250C010" referredColumn="0942BE07-562E-F73F-8312-2AFD14E9C0D6"/>
+</associations>
+</Column>
+<Column name="emp_id" id="7677A5D0-3AC6-B412-927C-E26CDAEDBBF1">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>AC665AE9-0A76-7040-CB15-171EE0793362</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="1A11B1DD-E734-F253-805F-D6D4B73A9B2B">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>48A11233-4840-967E-E554-D2EAE390B79E</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="94C614F3-A65E-D1DF-E6D7-295FC86A0DBB">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>4E0E6781-3C16-B565-64B8-228758F7E4A1</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="35ABBC0A-3B66-3EA2-AB04-336A25096CBE">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>386C7BC4-56F3-F95B-CC36-786493E4BB2A</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19E83AF9-CA55-767A-03C7-ADFF8506D5BD" name="SIM_emp_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>EE19D5A5-BE82-EBD0-8A49-4FB386BC358C</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D92BD8E-6C19-A7BE-E838-8AAED9EA4E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F24589F6-25D7-A104-C3AD-53E5826475FF" name="SIM_emp_PKv1">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>68AF1F9F-97E3-A837-531C-262EA3BB0597</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7677A5D0-3AC6-B412-927C-E26CDAEDBBF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D66A8A5-ABE1-7395-40C0-2106C4738C66" name="SIM_emp_SIM_Person_FK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>512B98D6-BC30-A8E7-4150-413CFB0CAADB</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D92BD8E-6C19-A7BE-E838-8AAED9EA4E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

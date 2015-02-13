@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7526A46-B79C-7513-11FF-461791661D79" name="SIM_Person">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>7C1E209F-E1C6-D9B5-E07E-D81952C13AFE</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="0942BE07-562E-F73F-8312-2AFD14E9C0D6">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>9E412B11-422E-4B1F-7841-16ADEC318728</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BC47349D-7C0E-E05F-4C25-DB2AE9F49415">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>E8D276A6-4936-1D7A-2431-80DE99EEF2D8</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="045CFDBC-5A30-CBEE-0139-72D3DDCC8454">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>7373A6E5-EBC8-A017-B179-B647735E34AD</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="C8D7D23D-CB1C-3CE0-358D-562A85DC39A1">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>B49A26F4-4637-2A23-38AB-0B7C216A9A93</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="538AC6CB-10B4-D624-1E28-36FCB3699094">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>96BA2D2F-FE5E-D546-4B15-A75A38034607</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="14EDFC75-42B5-ECBD-419D-0F1A5201862A">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>524FD40D-1D52-E598-086E-5F8592857101</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="61C0D193-48C1-D230-9C00-1A66C2721659">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>B9E37D56-941F-9473-E8BF-7088B4680047</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="D78B1A6E-5019-DC79-78A2-EBBC8C81F0F0">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>6A6BC3CA-BD83-59CD-9196-4AD07BB0B1E0</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="5A840164-F722-2401-5FB0-ED8B696DB982">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>7F1D1848-D5B6-3857-7F5E-93009D657EFF</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27538B5A-30FA-F7E5-72DD-38DE23DB97A1" name="SIM_Person_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>EE19D5A5-BE82-EBD0-8A49-4FB386BC358C</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0942BE07-562E-F73F-8312-2AFD14E9C0D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

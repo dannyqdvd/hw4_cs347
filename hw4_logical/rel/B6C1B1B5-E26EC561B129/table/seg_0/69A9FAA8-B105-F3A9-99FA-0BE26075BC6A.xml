@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69A9FAA8-B105-F3A9-99FA-0BE26075BC6A" name="SIM_dept">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>F029EE69-EB32-4D97-7220-285E714C4E06</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="554D5581-A076-B092-0720-DE6F512D7758">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>9A98DB16-6089-8680-0D5E-4D3D68C634C0</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8050ECAB-E80E-303E-A9B8-A214C6920F9F">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>EBC997A6-2CF3-E226-5161-4DA6486AD800</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="7B3CCC86-33CB-298D-C9BB-87A5B64CE986">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>2F77FB62-A95A-A38C-9266-EC16AB8DCBC1</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_id" id="DBC0C4F6-7ACD-D2EE-04F2-0435EF8BA63F">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>A04222B5-24DE-2807-A183-42FB543AC8F7</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BF506D1-29B3-8D47-6453-530855106926" name="SIM_dept_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>00C552F2-7CA3-0964-E766-FF0BC37BE518</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="554D5581-A076-B092-0720-DE6F512D7758"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF339DC1-B4C8-68DE-5E4B-09F2EC084798" name="SIM_dept_SIM_manager_FK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 21:32:42 UTC</createdTime>
+<generatorID>1AC6FC10-47BD-74EF-6171-433A74ABE510</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
