@@ -5,6 +5,8 @@
    <object objectType="Entity" objectID="4B5EB00B-BA55-E27F-77BD-B75AF554E833" name="SIM_project" seqName="seg_0"/>
    <object objectType="Entity" objectID="025468E8-6DC3-3AA5-76E3-247CC9FB9C06" name="SIM_project_employment" seqName="seg_0"/>
    <object objectType="Relation" objectID="1561B983-C58C-4E10-659F-20D29F110475" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="67B6EC6E-E35A-9BCB-3189-27DD099344ED" name="Relation_6" seqName="seg_0"/>
    <object objectType="Relation" objectID="01D8537B-98D6-57F4-1C4C-DFA440376D38" name="Relation_7" seqName="seg_0"/>
-   <object objectType="Relation" objectID="A55A4CAD-FA08-9B2D-F9F2-BD07047C18A1" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2AA71D6D-A535-A005-856E-BD3B35F41F75" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="49276A15-E47F-A52C-F1C8-D40E8B24931E" name="Relation_9" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

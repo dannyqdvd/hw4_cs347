@@ -3,9 +3,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:03:43 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:03:56 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -30,9 +24,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:04:10 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,9 +34,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:04:24 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,9 +43,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:04:36 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -68,9 +53,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:04:47 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,9 +62,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:04:59 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -93,9 +72,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:05:11 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -106,9 +82,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:05:20 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -119,9 +92,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:05:30 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -131,9 +101,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:57:22 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -143,9 +110,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:57:53 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -155,9 +119,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 22:38:36 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -168,9 +129,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:58:39 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -181,21 +139,25 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:58:32 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
+<Attribute name="rating" id="884F371B-903A-218E-1751-0C2808081FC3">
+<createdBy>michael</createdBy>
+<createdTime>2015-02-16 22:14:21 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
 <Attribute name="bonus" id="558C22C7-9103-6927-50D6-B8ED230EE86C">
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 22:37:48 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -206,9 +168,17 @@
 <createdTime>2015-02-13 22:05:25 UTC</createdTime>
 <generatorID>01D8537B-98D6-57F4-1C4C-DFA440376D38</generatorID>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A98DB16-6089-8680-0D5E-4D3D68C634C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="427B64A6-4590-1B2D-8EE5-0C9886B171AE">
+<createdBy>michael</createdBy>
+<createdTime>2015-02-16 22:15:01 UTC</createdTime>
+<generatorID>49276A15-E47F-A52C-F1C8-D40E8B24931E</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>9A98DB16-6089-8680-0D5E-4D3D68C634C0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -221,9 +191,6 @@
 <createdBy>dannyqdvd</createdBy>
 <createdTime>2015-02-13 21:04:07 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="2FEEBF48-16A0-2F02-8463-47F1BAE13F1C" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9E412B11-422E-4B1F-7841-16ADEC318728</attributeRef>
