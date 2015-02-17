@@ -8,7 +8,7 @@ FROM SIM_PERSON
 WHERE TYPE = 'Person' ;
 
 create or replace TRIGGER person_trigger
-     INSTEAD OF insert ON SIM_Person
+     INSTEAD OF insert ON Project_Person
      FOR EACH ROW
 BEGIN
      insert into SIM_Person(
