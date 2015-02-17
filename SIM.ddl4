@@ -22,7 +22,7 @@ BEGIN
         CITY,
         STATE, 
         ZIP, 
-        SIM_DEPT_ID )
+        SIM_DEPT_DEPT_ID )
      VALUES (
         :new.PERSON_ID,
         'Person',
@@ -34,7 +34,7 @@ BEGIN
         :new.CITY, 
         :new.STATE, 
         :new.ZIP, 
-        :new.SIM_DEPT_ID );
+        :new.SIM_DEPT_DEPT_ID );
 END;
 /
 
