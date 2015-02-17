@@ -38,12 +38,12 @@ BEGIN
 END;
 /
 
-create view SIM_proj_emp as
+create view SIM_project_emp as
 SELECT PERSON_ID, TYPE, NAME, TITLE, RATING
 FROM SIM_PERSON
 WHERE TYPE = 'Project Employee' ;
 
-create or replace TRIGGER proj_emp_trigger
+create or replace TRIGGER project_emp_trigger
      INSTEAD OF insert ON SIM_project_emp
      FOR EACH ROW
 BEGIN
@@ -79,7 +79,7 @@ BEGIN
         BONUS)
      VALUES (
         :new.PERSON_ID,
-        'Manager,
+        'Manager',
         :new.NAME,
         :new.TITLE,
         :new.BONUS) ;
