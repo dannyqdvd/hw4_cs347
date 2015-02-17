@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3ABDADAD-A5E7-6461-AD57-214F0B7115BF" name="SIM_p2p">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-16 23:21:57 UTC</createdTime>
+<generatorID>025468E8-6DC3-3AA5-76E3-247CC9FB9C06</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="per_proj" id="C3476F54-BACE-C8A4-1A42-3C8D225883C0">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-16 23:21:57 UTC</createdTime>
+<generatorID>5576D861-34C4-C339-A319-46F0F4DE51AC</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="9AECAC7F-4A5F-C37F-9A8A-BF5D986896B8">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-16 23:21:57 UTC</createdTime>
+<generatorID>FF68ED00-ED45-FA16-0D1F-40C73F67C1CE</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>38B2625F-87ED-9E6C-5979-4E3724D5F209</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B342BC52-3C06-B264-2344-CA27307ECE6A" referredColumn="38B2625F-87ED-9E6C-5979-4E3724D5F209"/>
+</associations>
+</Column>
+<Column name="SIM_project_project_id" id="5B36B8EA-EFBD-AB63-00A1-3FDBFCA5F4CF">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-16 23:21:57 UTC</createdTime>
+<generatorID>D2775AFA-053B-736B-177D-5A1537844D02</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1ACD4592-8F2E-BB72-0142-453763309C66</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9EB6329-6E79-D570-0603-8A330BA61C27" referredColumn="1ACD4592-8F2E-BB72-0142-453763309C66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BB8B9DA-2995-5932-4803-232A911A3DD2" name="SIM_p2p_PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-16 23:21:57 UTC</createdTime>
+<generatorID>D6D7475D-3D43-B5F6-5E4B-A1B562EB3428</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3476F54-BACE-C8A4-1A42-3C8D225883C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31A3755E-0C61-7676-774E-1D39C0FDD135" name="SIM_p2p_SIM_Person_FK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-16 23:21:57 UTC</createdTime>
+<generatorID>67B6EC6E-E35A-9BCB-3189-27DD099344ED</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AECAC7F-4A5F-C37F-9A8A-BF5D986896B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7CF4AF8-FEBD-3590-6A07-4DFD8F5C44B2" name="SIM_p2p_SIM_project_FK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-16 23:21:57 UTC</createdTime>
+<generatorID>2AA71D6D-A535-A005-856E-BD3B35F41F75</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B36B8EA-EFBD-AB63-00A1-3FDBFCA5F4CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

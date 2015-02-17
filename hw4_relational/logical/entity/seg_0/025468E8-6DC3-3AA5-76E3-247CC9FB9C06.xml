@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="025468E8-6DC3-3AA5-76E3-247CC9FB9C06" name="SIM_p2p">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 22:39:32 UTC</createdTime>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<engineerTo>
+<item key="2A21A97B-6213-C7AE-EEA2-00524D53DED4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="per_proj" id="5576D861-34C4-C339-A319-46F0F4DE51AC">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 22:40:12 UTC</createdTime>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<engineerTo>
+<item key="2A21A97B-6213-C7AE-EEA2-00524D53DED4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="FF68ED00-ED45-FA16-0D1F-40C73F67C1CE">
+<createdBy>michael</createdBy>
+<createdTime>2015-02-16 22:13:43 UTC</createdTime>
+<generatorID>67B6EC6E-E35A-9BCB-3189-27DD099344ED</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<engineerTo>
+<item key="2A21A97B-6213-C7AE-EEA2-00524D53DED4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9E412B11-422E-4B1F-7841-16ADEC318728</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="D2775AFA-053B-736B-177D-5A1537844D02">
+<createdBy>michael</createdBy>
+<createdTime>2015-02-16 22:13:51 UTC</createdTime>
+<generatorID>2AA71D6D-A535-A005-856E-BD3B35F41F75</generatorID>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<engineerTo>
+<item key="2A21A97B-6213-C7AE-EEA2-00524D53DED4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9D38ABC4-F5EE-CC4F-B03D-88671298E9DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6D7475D-3D43-B5F6-5E4B-A1B562EB3428" name="{entity} PK">
+<createdBy>dannyqdvd</createdBy>
+<createdTime>2015-02-13 22:40:50 UTC</createdTime>
+<ownerDesignName>hw4_relational</ownerDesignName>
+<engineerTo>
+<item key="2A21A97B-6213-C7AE-EEA2-00524D53DED4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5576D861-34C4-C339-A319-46F0F4DE51AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
