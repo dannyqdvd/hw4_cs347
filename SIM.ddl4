@@ -1,8 +1,8 @@
-drop view SIM_Person ;
+drop view Project_Person ;
 drop view SIM_project_emp ;
 drop view SIM_manager ;
 
-create view SIM_Person as
+create view Project_Person as
 SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, SIM_DEPT_ID 
 FROM SIM_PERSON
 WHERE TYPE = 'Person' ;
@@ -11,7 +11,7 @@ create or replace TRIGGER person_trigger
      INSTEAD OF insert ON SIM_Person
      FOR EACH ROW
 BEGIN
-     insert into sim_person(
+     insert into SIM_Person(
         PERSON_ID, 
         TYPE, 
         NAME, 
@@ -38,7 +38,7 @@ BEGIN
 END;
 /
 
-create view SIM_project_emp as
+create view SIM_proj_emp as
 SELECT PERSON_ID, TYPE, NAME, TITLE, RATING
 FROM SIM_PERSON
 WHERE TYPE = 'Project Employee' ;
@@ -47,7 +47,7 @@ create or replace TRIGGER proj_emp_trigger
      INSTEAD OF insert ON SIM_project_emp
      FOR EACH ROW
 BEGIN
-     insert into so_person(
+     insert into SIM_Person(
         PERSON_ID,
         TYPE,
         NAME,
@@ -71,7 +71,7 @@ create or replace TRIGGER manager_trigger
      INSTEAD OF insert ON SIM_manager
      FOR EACH ROW
 BEGIN
-     insert into so_person(
+     insert into SIM_Person(
         PERSON_ID,
         TYPE,
         NAME,
